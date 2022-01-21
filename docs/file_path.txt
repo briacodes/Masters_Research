@@ -1,0 +1,114 @@
+From home/bandersen/iris-home/CrIS_FSR_j01_d20190519_t055647.atm_prof_rtv.h5
+
+"CAPE": shape (180, 90)
+"CO2_Amount": shape (180, 90)
+"COT": shape (180, 90)
+"CTP": shape (180, 90)
+"CTT": shape (180, 90)
+"Channel_Index": shape (1971,)
+"CldEmis": shape (180, 90)
+"Cmask": shape (180, 90)
+"Dewpnt": shape (101, 180, 90)
+"GDAS_2mRelHum": shape (180, 90)
+"GDAS_2mTAir": shape (180, 90)
+"GDAS_RelHum": shape (101, 180, 90)
+"GDAS_TAir": shape (101, 180, 90)
+"H2OMMR": shape (101, 180, 90)
+"H2Ohigh": shape (180, 90)
+"H2Olow": shape (180, 90)
+"H2Omid": shape (180, 90)
+"Latitude": shape (180, 90)
+"Lifted_Index": shape (180, 90)
+"Longitude": shape (180, 90)
+"O3VMR": shape (101, 180, 90)
+"Plevs": shape (101,)
+"Qflag1": shape (180, 90)
+"Qflag2": shape (180, 90)
+"Qflag3": shape (180, 90)
+"RelHum": shape (101, 180, 90)
+"SurfEmis": shape (2211, 180, 90)
+"SurfEmis_Wavenumbers": shape (2211,)
+"SurfPres": shape (180, 90)
+"TAir": shape (101, 180, 90)
+"TSurf": shape (180, 90)
+"totH2O": shape (180, 90)
+"totO3": shape (180, 90)
+
+From /home/bandersen/iris-home/data/SCRIF_j01_d20190519_t0556479_e0604457_b07759_c20200303175129682159_noac_ops.h5
+
+ "/All_Data/CrIS-FS-SDR_All/DS_SpectralStability": shape (60, 2, 9, 3), type "<f8">
+ "/All_Data/CrIS-FS-SDR_All/DS_Symmetry": shape (60, 9, 3), type "<f8">
+ "/All_Data/CrIS-FS-SDR_All/DS_WindowSize": shape (60, 2, 9, 3), type "<u2">
+ "/All_Data/CrIS-FS-SDR_All/ES_ImaginaryLW": shape (60, 30, 9, 717), type "<f4">
+ "/All_Data/CrIS-FS-SDR_All/ES_ImaginaryMW": shape (60, 30, 9, 869), type "<f4">
+ "/All_Data/CrIS-FS-SDR_All/ES_ImaginarySW": shape (60, 30, 9, 637), type "<f4">
+ "/All_Data/CrIS-FS-SDR_All/ES_NEdNLW": shape (60, 30, 9, 717), type "<f4">
+ "/All_Data/CrIS-FS-SDR_All/ES_NEdNMW": shape (60, 30, 9, 869), type "<f4">
+ "/All_Data/CrIS-FS-SDR_All/ES_NEdNSW": shape (60, 30, 9, 637), type "<f4">
+ "/All_Data/CrIS-FS-SDR_All/ES_RDRImpulseNoise": shape (60, 30, 9, 3), type "|u1">
+ "/All_Data/CrIS-FS-SDR_All/ES_RealLW": shape (60, 30, 9, 717), type "<f4">
+ "/All_Data/CrIS-FS-SDR_All/ES_RealMW": shape (60, 30, 9, 869), type "<f4">
+ "/All_Data/CrIS-FS-SDR_All/ES_RealSW": shape (60, 30, 9, 637), type "<f4">
+ "/All_Data/CrIS-FS-SDR_All/ES_ZPDAmplitude": shape (60, 30, 9, 3), type "<i2">
+ "/All_Data/CrIS-FS-SDR_All/ES_ZPDFringeCount": shape (60, 30, 9, 3), type "<u2">
+ "/All_Data/CrIS-FS-SDR_All/ICT_SpectralStability": shape (60, 2, 9, 3), type "<f8">
+ "/All_Data/CrIS-FS-SDR_All/ICT_TemperatureConsistency": shape (60,), type "<f4">
+ "/All_Data/CrIS-FS-SDR_All/ICT_TemperatureStability": shape (60, 2), type "<f4">
+ "/All_Data/CrIS-FS-SDR_All/ICT_WindowSize": shape (60, 2, 9, 3), type "<u2">
+ "/All_Data/CrIS-FS-SDR_All/MeasuredLaserWavelength": shape (60,), type "<f8">
+ "/All_Data/CrIS-FS-SDR_All/MonitoredLaserWavelength": shape (60,), type "<f8">
+ "/All_Data/CrIS-FS-SDR_All/NumberOfValidPRTTemps": shape (60, 2), type "|u1">
+ "/All_Data/CrIS-FS-SDR_All/QF1_SCAN_CRISSDR": shape (60,), type "|u1">
+ "/All_Data/CrIS-FS-SDR_All/QF2_CRISSDR": shape (60, 9, 3), type "|u1">
+ "/All_Data/CrIS-FS-SDR_All/QF3_CRISSDR": shape (60, 30, 9, 3), type "|u1">
+ "/All_Data/CrIS-FS-SDR_All/QF4_CRISSDR": shape (60, 30, 9, 3), type "|u1">
+ "/All_Data/CrIS-FS-SDR_All/ResamplingLaserWavelength": shape (60,), type "<f8">
+ "/All_Data/CrIS-FS-SDR_All/SDRFringeCount": shape (60, 30, 9, 3), type "<u2">
+ "/All_Data/CrIS-SDR-GEO_All/FORTime": shape (60, 30), type "<i8">
+ "/All_Data/CrIS-SDR-GEO_All/Height": shape (60, 30, 9), type "<f4">
+ "/All_Data/CrIS-SDR-GEO_All/Latitude": shape (60, 30, 9), type "<f4">
+ "/All_Data/CrIS-SDR-GEO_All/Longitude": shape (60, 30, 9), type "<f4">
+ "/All_Data/CrIS-SDR-GEO_All/MidTime": shape (60,), type "<i8">
+ "/All_Data/CrIS-SDR-GEO_All/PadByte1": shape (60,), type "|u1">
+ "/All_Data/CrIS-SDR-GEO_All/QF1_CRISSDRGEO": shape (60,), type "|u1">
+ "/All_Data/CrIS-SDR-GEO_All/SCAttitude": shape (60, 3), type "<f4">
+ "/All_Data/CrIS-SDR-GEO_All/SCPosition": shape (60, 3), type "<f4">
+ "/All_Data/CrIS-SDR-GEO_All/SCVelocity": shape (60, 3), type "<f4">
+ "/All_Data/CrIS-SDR-GEO_All/SatelliteAzimuthAngle": shape (60, 30, 9), type "<f4">
+ "/All_Data/CrIS-SDR-GEO_All/SatelliteRange": shape (60, 30, 9), type "<f4">
+ "/All_Data/CrIS-SDR-GEO_All/SatelliteZenithAngle": shape (60, 30, 9), type "<f4">
+ "/All_Data/CrIS-SDR-GEO_All/SolarAzimuthAngle": shape (60, 30, 9), type "<f4">
+ "/All_Data/CrIS-SDR-GEO_All/SolarZenithAngle": shape (60, 30, 9), type "<f4">
+ "/All_Data/CrIS-SDR-GEO_All/StartTime": shape (60,), type "<i8">
+ "/Data_Products/CrIS-FS-SDR/CrIS-FS-SDR_Aggr": shape (28,), type "|O">
+ "/Data_Products/CrIS-FS-SDR/CrIS-FS-SDR_Gran_0": shape (28,), type "|O">
+ "/Data_Products/CrIS-FS-SDR/CrIS-FS-SDR_Gran_1": shape (28,), type "|O">
+ "/Data_Products/CrIS-FS-SDR/CrIS-FS-SDR_Gran_10": shape (28,), type "|O">
+ "/Data_Products/CrIS-FS-SDR/CrIS-FS-SDR_Gran_11": shape (28,), type "|O">
+ "/Data_Products/CrIS-FS-SDR/CrIS-FS-SDR_Gran_12": shape (28,), type "|O">
+ "/Data_Products/CrIS-FS-SDR/CrIS-FS-SDR_Gran_13": shape (28,), type "|O">
+ "/Data_Products/CrIS-FS-SDR/CrIS-FS-SDR_Gran_14": shape (28,), type "|O">
+ "/Data_Products/CrIS-FS-SDR/CrIS-FS-SDR_Gran_2": shape (28,), type "|O">
+ "/Data_Products/CrIS-FS-SDR/CrIS-FS-SDR_Gran_3": shape (28,), type "|O">
+ "/Data_Products/CrIS-FS-SDR/CrIS-FS-SDR_Gran_4": shape (28,), type "|O">
+ "/Data_Products/CrIS-FS-SDR/CrIS-FS-SDR_Gran_5": shape (28,), type "|O">
+ "/Data_Products/CrIS-FS-SDR/CrIS-FS-SDR_Gran_6": shape (28,), type "|O">
+ "/Data_Products/CrIS-FS-SDR/CrIS-FS-SDR_Gran_7": shape (28,), type "|O">
+ "/Data_Products/CrIS-FS-SDR/CrIS-FS-SDR_Gran_8": shape (28,), type "|O">
+ "/Data_Products/CrIS-FS-SDR/CrIS-FS-SDR_Gran_9": shape (28,), type "|O">
+ "/Data_Products/CrIS-SDR-GEO/CrIS-SDR-GEO_Aggr": shape (16,), type "|O">
+ "/Data_Products/CrIS-SDR-GEO/CrIS-SDR-GEO_Gran_0": shape (16,), type "|O">
+ "/Data_Products/CrIS-SDR-GEO/CrIS-SDR-GEO_Gran_1": shape (16,), type "|O">
+ "/Data_Products/CrIS-SDR-GEO/CrIS-SDR-GEO_Gran_10": shape (16,), type "|O">
+ "/Data_Products/CrIS-SDR-GEO/CrIS-SDR-GEO_Gran_11": shape (16,), type "|O">
+ "/Data_Products/CrIS-SDR-GEO/CrIS-SDR-GEO_Gran_12": shape (16,), type "|O">
+ "/Data_Products/CrIS-SDR-GEO/CrIS-SDR-GEO_Gran_13": shape (16,), type "|O">
+ "/Data_Products/CrIS-SDR-GEO/CrIS-SDR-GEO_Gran_14": shape (16,), type "|O">
+ "/Data_Products/CrIS-SDR-GEO/CrIS-SDR-GEO_Gran_2": shape (16,), type "|O">
+ "/Data_Products/CrIS-SDR-GEO/CrIS-SDR-GEO_Gran_3": shape (16,), type "|O">
+ "/Data_Products/CrIS-SDR-GEO/CrIS-SDR-GEO_Gran_4": shape (16,), type "|O">
+ "/Data_Products/CrIS-SDR-GEO/CrIS-SDR-GEO_Gran_5": shape (16,), type "|O">
+ "/Data_Products/CrIS-SDR-GEO/CrIS-SDR-GEO_Gran_6": shape (16,), type "|O">
+ "/Data_Products/CrIS-SDR-GEO/CrIS-SDR-GEO_Gran_7": shape (16,), type "|O">
+ "/Data_Products/CrIS-SDR-GEO/CrIS-SDR-GEO_Gran_8": shape (16,), type "|O">
+ "/Data_Products/CrIS-SDR-GEO/CrIS-SDR-GEO_Gran_9": shape (16,), type "|O">

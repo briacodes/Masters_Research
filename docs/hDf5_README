@@ -1,0 +1,62 @@
+
+If you like your prompt to be your path
+export PS1="\u@\h \w> "
+
+
+alias d='display'
+
+>d file.png will show the png file on your display
+
+alias loadmods='module load license_intel intel hdf hdf5 netcdf4 miniconda'
+#alias loadmods='module load license_intel gcc hdf hdf5 netcdf4 miniconda'
+
+Useful Slurm commands
+The q's are left over from the PBS qstat commands!
+alias sq='squeue'
+alias q='squeue -u snebuda -o  "%.10i %.4P %.25j %.8u %.2t %.10M %.6D %R"'
+alias qa='squeue -o  "%.10i %.4P %.25j %.8u %.2t %.10M %.6D %R"'
+alias qr='squeue -o  "%.10i %.4P %.25j %.8u %.2t %.10M %.6D %R" | grep " R "'
+alias qdel='scancel'
+
+
+Logging in
+ssh -Y bandersen@ash.ssec.wisc.edu
+ssh -Y iris.ssec.wisc.edu
+
+
+NOAA CLASS
+https://www.avl.class.noaa.gov/saa/products/welcome
+
+hdf5 commands on iris
+ ls /opt/hdf5/1.8.17-intel-17/bin
+-rwxr-xr-x 1 root root 288K Sep  7  2016 gif2h5
+-rwxr-xr-x 1 root root 284K Sep  7  2016 h52gif
+-rwxr-xr-x 1 root root  13K Sep  7  2016 h5c++
+-rwxr-xr-x 1 root root  14K Sep  7  2016 h5cc
+-rwxr-xr-x 1 root root 282K Sep  7  2016 h5copy
+-rwxr-xr-x 1 root root 142K Sep  7  2016 h5debug
+-rwxr-xr-x 1 root root 432K Sep  7  2016 h5diff
+-rwxr-xr-x 1 root root 414K Sep  7  2016 h5dump
+-rwxr-xr-x 1 root root  13K Sep  7  2016 h5fc
+-rwxr-xr-x 1 root root 340K Sep  7  2016 h5import
+-rwxr-xr-x 1 root root 286K Sep  7  2016 h5jam
+-rwxr-xr-x 1 root root 325K Sep  7  2016 h5ls
+-rwxr-xr-x 1 root root 278K Sep  7  2016 h5mkgrp
+-rwxr-xr-x 1 root root 324K Sep  7  2016 h5perf_serial
+-rwxr-xr-x 1 root root 6.0K Sep  7  2016 h5redeploy
+-rwxr-xr-x 1 root root 350K Sep  7  2016 h5repack
+-rwxr-xr-x 1 root root 137K Sep  7  2016 h5repart
+-rwxr-xr-x 1 root root 296K Sep  7  2016 h5stat
+-rwxr-xr-x 1 root root 281K Sep  7  2016 h5unjam
+
+
+example data in /scratch/snebuda/cris hdf5 format 
+GCRSO-SCRIF_j01_d20190518_t2356479_e0004457_b07755_c20200303175012099750_noac_ops.h5
+
+h5py
+http://docs.h5py.org/en/latest/quick.html
+
+
+
+
+
